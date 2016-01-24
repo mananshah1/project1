@@ -1,0 +1,18 @@
+{
+    "contents" : "eloaddf2 <- read.xlsx(\"elecloaddata.xlsx\", sheet= 1)\n\nstr(eloaddf2)\n\ninstall.packages('gdata')\n\nlibrary(gdata)\n\neloaddf2 <- read.xls(\"elecloaddata.xlsx\")\n\n? read.xls\n\ninstall.packages(\"openxlsx\")\n\nlibrary(\"openxlsx\")\n\nweatherdf <- read.fwf(\"1874606932872dat.txt\", widths = c(6,7,12,4,4,4,4,4,2,2,2,5,3,3,3,3,3,3,3,3,2,5,5,7,6,7,4,4,6,6,6,6,3))\n\nstr(eloaddf_new)\n\ntable(format(eloaddf_new$date, format = '%Y'))\n\ntable(getYear(eloaddf_new$date))\n\ntable(eloaddf_new$TIME)\n\ntable(format(weatherdf_new$dates, format = '%m'))\n\nformat(weatherdf_new$dates, format = '%m')\n\nrep(c(1:24), times= 4)\n\ntable(rep(rep(c(1:24), each = 4), times=729))\n\nweather_df_new$hr <- format(weatherdf_new$dates, format = '%H') +1\n\nweatherdf$temp <- as.numeric(levels(weatherdf$V22 )[weatherdf$V22 ])\n\nweatherdf <- weatherdf[,is.na(weatherdf$temp) == FALSE]\n\nweatherdf_new <- subset(weatherdf, is.na(weatherdf$temp)== FALSE)\n\nweatherdf_new$hr_ua <- format(weatherdf_new$dates, format = '%H')\n\nweatherdf_new$ hr <- as.numeric(weatherdf_new$hr_ua)+ 1\n\nstr(weatherdf_new)\n\nas.numeric(weatherdf_new$hr_ua)\n\nwrite.csv(pred2015df, \"pred2015df.csv\", row.names = FALSE)\n",
+    "created" : 1453574247343.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3906516792",
+    "id" : "BB86C982",
+    "lastKnownWriteTime" : 1453614285,
+    "path" : "~/GitHub/project1/script.R",
+    "project_path" : "script.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

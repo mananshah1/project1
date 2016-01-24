@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1453612642037.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4FF251A5",
+    "lastKnownWriteTime" : 27303570963497028,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "49299inpu1",
+        "caption" : "pred2015df",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=pred2015df&cache_key=49299inpu1",
+        "displayedObservations" : "9369",
+        "environment" : "",
+        "object" : "pred2015df",
+        "totalObservations" : "9369",
+        "variables" : "2"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
